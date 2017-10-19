@@ -1,0 +1,71 @@
+div {
+    display: block;
+    background-color: #599659;
+    box-sizing: border-box;
+    height: 378px;
+    margin: 10px;
+    width: 761px;   
+}
+
+div.rectangulo {
+    width: 725px; 
+    height: 345px; 
+    border: 3px solid #fff;
+    position: relative;
+    top: 15px;
+    left: 7.5px;
+}
+
+div.goal-left {
+    border: 3px solid #fff;
+    border-left: 0; 
+    height: 145px;
+    margin: 0;
+    position: relative;
+    width: 75px ;
+    top : 93px;
+    margin: 0;
+}
+
+div.goal-rigth {
+    border: 3px solid #fff;
+    border-right: 0; 
+    height: 145px;
+    margin: 0;
+    position: relative;
+    width: 75px ;
+    left: 644px;
+    bottom: 50px;
+}
+
+div.center {
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin: 0;
+    position: relative;
+    left: 291px;
+    bottom: 200px;
+}
+
+img.one,img.two,img.three {
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+img.one {
+    bottom: 338px;
+    left: 60px;
+}
+
+img.two {
+    bottom: 400px;
+    left: 350px;
+}
+
+img.three {
+    bottom: 225px;
+    left: 570px;
+}
